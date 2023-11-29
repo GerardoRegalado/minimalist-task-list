@@ -1,0 +1,19 @@
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.list-group {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+
+
+.list-group :hover {
+  border-color: rgb(131, 97, 255);
+  transition: 0.5s;
+}
