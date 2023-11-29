@@ -1,0 +1,56 @@
+.list-group-item {
+  list-style: none;
+  padding: 7px 10px;
+  color: white;
+  border: 1px solid rgb(42,42,42);
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.list-group-item {
+  position: relative;
+}
+
+.list-group-item button {
+  border: none;
+  background: none;
+  outline: inherit;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  color: rgb(255, 130, 130);
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.list-group-item input[type=checkbox] {
+  display: none;
+
+}
+
+.list-group-item input[type=checkbox] + label {
+  cursor: pointer;
+  padding-left:25px ;
+  border: none;
+  position: relative;
+}
+
+.list-group-item label::before {
+  content: '';
+  border: 2px solid rgb(146, 116, 255);
+  border-radius: 25px;
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  margin-right: 5px;
+  position: absolute;
+  left: 0;
+}
+
+.list-group-item input[type=checkbox]:checked + label::before {
+  background-color: rgb(146, 116, 255);
+  padding-bottom: 0;
+}
