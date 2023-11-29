@@ -1,0 +1,8 @@
+<div class="c-footer" [class.valid-input]="txtInput.invalid">
+  <input
+    type="text"
+    placeholder="Enter Task"
+    [formControl] = "txtInput"
+    (keydown.enter)="save()"
+  >
+</div>
