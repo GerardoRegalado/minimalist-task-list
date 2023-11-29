@@ -1,0 +1,26 @@
+.c-header {
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  margin: 15px 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.c-header button {
+  border: none;
+  background: none;
+  outline: inherit;
+  cursor: pointer;
+  background-color: #5731DE;
+  color: white;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.c-header button:hover {
+  background-color: rgb(133, 99, 255);
+  transition-duration: 0.5s;
+}
